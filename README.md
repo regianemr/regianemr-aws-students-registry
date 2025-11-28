@@ -1,10 +1,11 @@
 <div align="center">
 🎓✨ Cadastro de Alunos
 Projeto Full Stack com Flask + MySQL + AWS
+
 <img src="https://img.shields.io/badge/🚀_Projeto_Full_Stack-AWS-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/STATUS-Deploy_Desativado-darkred?style=for-the-badge"> <br>
 
-🧙 Projeto inspirado na atmosfera mágica de Hogwarts, desenvolvido para estudos durante a Santander Imersão Digital.
-Os serviços AWS foram desativados temporariamente devido aos custos de operação.
+Projeto desenvolvido para estudos durante a Santander Imersão Digital.
+OBS: Os serviços AWS foram desativados temporariamente.
 
 </div>
 ✨ Visão Geral
@@ -15,7 +16,7 @@ Este projeto implementa um sistema completo de cadastro e listagem de alunos, ut
 
 🗄️ Banco MySQL no AWS RDS
 
-🎨 Frontend HTML/CSS/JS com tema mágico
+🎨 Frontend HTML/CSS/JS 
 
 ☁️ Deploy estático no AWS S3
 
@@ -24,7 +25,6 @@ O objetivo foi praticar conceitos de cloud, APIs REST, integração com banco re
 🖼️ Demonstração
 🌟 Tela inicial
 
-Interface estilizada com tema de Hogwarts usando CSS puro, gradientes dourados e efeitos luminosos.
 
 <img src="https://i.imgur.com/kAwkWtI.png" width="600">
 🪄 Cadastro em ação
@@ -51,7 +51,7 @@ AWS RDS (MySQL)
 
 HTML5
 
-CSS3 (tema místico dourado)
+CSS3 
 
 JavaScript (Fetch API)
 
@@ -77,13 +77,7 @@ GET /alunos → retorna lista de alunos
 
 Integração entre EC2 (Flask) e RDS
 
-Frontend totalmente customizado:
-
-Gradientes mágicos
-
-Botões estilosos
-
-Sombras e brilhos dourados
+Frontend totalmente customizado
 
 Deploy do frontend como site estático no S3
 
