@@ -26,12 +26,12 @@ O objetivo foi praticar conceitos de cloud, APIs REST, integração com banco re
 🌟 Tela inicial
 
 
-<!-- <img src="https://i.imgur.com/kAwkWtI.png" width="600"> -->
+<img src="https://imgur.com/a/cBMLpDv" width="600">
 🪄 Cadastro em ação
 
 Fluxo completo de envio do formulário.
 
-<!-- <img src="https://i.imgur.com/hkir1J2.gif" width="600"> -->
+<img src="https://imgur.com/VlFBW5P" width="600">
 ⚙️ Tecnologias Utilizadas
 ☁️ Backend
 
