@@ -1,87 +1,112 @@
-# 🧙‍♀️ Cadastro de Alunos - Projeto Full Stack com AWS
+<div align="center">
+🎓✨ Cadastro de Alunos
+Projeto Full Stack com Flask + MySQL + AWS
+<img src="https://img.shields.io/badge/🚀_Projeto_Full_Stack-AWS-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/STATUS-Deploy_Desativado-darkred?style=for-the-badge"> <br>
 
+🧙 Projeto inspirado na atmosfera mágica de Hogwarts, desenvolvido para estudos durante a Santander Imersão Digital.
+Os serviços AWS foram desativados temporariamente devido aos custos de operação.
 
-![Magic Badge](https://img.shields.io/badge/✨%20Projeto%20com%20AWS-%F0%9F%8E%AD-darkred)
-![Status Badge](https://img.shields.io/badge/Status-Deploy%20desativado%20%7C%20Prática%20acadêmica-8B0000?style=flat-square)
+</div>
+✨ Visão Geral
 
-> 🪶 **Observação:** Este projeto teve seu **deploy realizado apenas para fins de prática** durante a trilha **Santander Imersão Digital**.  
-> Os serviços na AWS estão **desativados temporariamente** devido aos custos de hospedagem.  
-> 🔮 Todo o código e a estrutura do sistema permanecem disponíveis neste repositório para estudo e consulta.
+Este projeto implementa um sistema completo de cadastro e listagem de alunos, utilizando:
 
---- 
-## ✨ Sobre o Projeto
-Este projeto foi desenvolvido como parte da **Trilha DevOps** do programa **Santander Imersão Digital** em parceria com **Alura** e **FIAP**.
-A aplicação tem como objetivo realizar o **cadastro e visualização de alunos** por meio de um **backend em Python (Flask)** integrado a um **banco de dados MySQL hospedado na AWS RDS**, e um **frontend hospedado no S3**.
+🐍 Backend em Flask
 
-Para personalizar a experiência, o frontend foi completamente **estilizado com um tema inspirado na Escola de Magia de Hogwarts**, utilizando **CSS puro** com efeitos dourados, sombreamento e atmosfera mística.
+🗄️ Banco MySQL no AWS RDS
 
----
+🎨 Frontend HTML/CSS/JS com tema mágico
 
-## 🪄 Demonstração
+☁️ Deploy estático no AWS S3
 
-📸 **Tela inicial:**
-Exibe o formulário de cadastro de alunos com o tema de Hogwarts, incluindo elementos visuais inspirados no universo de Harry Potter.
-<img src="https://i.imgur.com/kAwkWtI.png" alt="Prévia do Cadastro de Alunos" width="600">
+O objetivo foi praticar conceitos de cloud, APIs REST, integração com banco relacional e deploy na AWS.
 
-🧾 **Envio do formulário:**
-Demonstra a interação do usuário ao preencher e submeter o cadastro, exibindo o processo concluído com sucesso.
+🖼️ Demonstração
+🌟 Tela inicial
 
-<img src="https://i.imgur.com/hkir1J2.gif" alt="Cadastro efetuado com sucesso" width="600">
+Interface estilizada com tema de Hogwarts usando CSS puro, gradientes dourados e efeitos luminosos.
 
---- 
+<img src="https://i.imgur.com/kAwkWtI.png" width="600">
+🪄 Cadastro em ação
 
-## ⚙️ Tecnologias Utilizadas
+Fluxo completo de envio do formulário.
 
- ☁️ **Backend**
-- **AWS EC2** — Hospedagem da API Flask
-- **AWS RDS (MySQL)** — Banco de dados relacional
-- **Flask e Flask-RESTful** — Criação da API REST
-- **Flask-CORS** — Liberação de comunicação com o frontend
-- **MySQL Connector** — Conexão entre a aplicação e o banco
+<img src="https://i.imgur.com/hkir1J2.gif" width="600">
+⚙️ Tecnologias Utilizadas
+☁️ Backend
 
-🪄 **Frontend**
-- **HTML5**
-- **CSS3 (customizado com tema mágico)**
-- **JavaScript (Fetch API)**
-- **AWS S3** — Hospedagem estática
+Flask
 
- 🧰 **Ferramentas auxiliares**
-- **Git / GitHub** — Versionamento do código
-- **MySQL Workbench** — Criação e manipulação do banco
-- **Amazon Console** — Gerenciamento dos serviços em nuvem
+Flask-RESTful
 
----
+Flask-CORS
 
-## ✨ O que foi feito
-1. **Criação do banco de dados MySQL** no Amazon RDS, com tabela `tb_alunos` para armazenar as informações de alunos.
+MySQL Connector
 
-2. **Configuração do backend** em uma instância EC2 executando um servidor Flask para as rotas `/cadastro` (POST) e `/alunos (GET)`.
+AWS EC2 (API)
 
-3. **Integração entre backend e banco** para permitir inserção e consulta dos cadastros via API.
+AWS RDS (MySQL)
 
-4. **Customização completa do frontend**, com:
+✨ Frontend
 
-- Layout temático da Escola de Magia de Hogwarts 🪄
-- Fundo com imagem e gradiente dourado escuro
-- Inputs e botões estilizados com bordas e brilhos mágicos
-- Uso de `box-shadow`, `text-shadow` e `linear-gradient` para criar efeitos luminosos
+HTML5
 
-5. **Deploy do frontend no AWS S3**, configurado como site estático e vinculado ao backend via IP público da instância EC2.
+CSS3 (tema místico dourado)
 
----
+JavaScript (Fetch API)
 
-## 🚀 Como Executar
-1. Configure o banco de dados MySQL no RDS conforme o tutorial.
-2. Suba a instância EC2 e edite o arquivo app.py com as credenciais do seu banco.
-3. Execute o backend:
+AWS S3 — hospedagem estática
 
-```bash
+🛠️ Ferramentas
+
+Git / GitHub
+
+MySQL Workbench
+
+AWS Console
+
+🛠️ Funcionalidades
+
+Criação da tabela tb_alunos no MySQL RDS
+
+API com rotas:
+
+POST /cadastro → insere alunos
+
+GET /alunos → retorna lista de alunos
+
+Integração entre EC2 (Flask) e RDS
+
+Frontend totalmente customizado:
+
+Gradientes mágicos
+
+Botões estilosos
+
+Sombras e brilhos dourados
+
+Deploy do frontend como site estático no S3
+
+🚀 Execução do Projeto
+1️⃣ Backend
+
+Edite o app.py com suas credenciais do RDS e execute:
+
 python app.py
-```
-4. Edite o `script.js` do frontend e substitua o IP pelo IP público da sua EC2.
-5. Faça upload dos arquivos para o **AWS S3** e habilite a hospedagem de site estático.
-6. Acesse a URL pública do bucket e teste o cadastro de alunos.
 
+2️⃣ Frontend
+
+No arquivo script.js, atualize o IP da instância EC2.
+
+3️⃣ Deploy
+
+Envie os arquivos do frontend ao bucket S3 configurado como Static Website Hosting.
+
+4️⃣ Acesso
+
+Abra a URL pública do S3 para usar o sistema.
+
+<div align="center">
 ---
 ##  Autora
-Feito com ❤️ por [Jezebel Guedes](https://www.linkedin.com/in/jezebel-guedes/) 👋Vamos nos conectar!
+Feito  por [Regiane](https://www.linkedin.com/in/regiane-melo-84ba54173/) 👋Vamos 
