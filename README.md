@@ -26,12 +26,12 @@ O objetivo foi praticar conceitos de cloud, APIs REST, integração com banco re
 🌟 Tela inicial
 
 
-<img src="https://i.imgur.com/kAwkWtI.png" width="600">
+<!-- <img src="https://i.imgur.com/kAwkWtI.png" width="600"> -->
 🪄 Cadastro em ação
 
 Fluxo completo de envio do formulário.
 
-<img src="https://i.imgur.com/hkir1J2.gif" width="600">
+<!-- <img src="https://i.imgur.com/hkir1J2.gif" width="600"> -->
 ⚙️ Tecnologias Utilizadas
 ☁️ Backend
 
@@ -103,4 +103,4 @@ Abra a URL pública do S3 para usar o sistema.
 <div align="center">
 ---
 ##  Autora
-Feito  por [Regiane](https://www.linkedin.com/in/regiane-melo-84ba54173/) 👋Vamos 
+Feito  por [Regiane](https://www.linkedin.com/in/regiane-melo-84ba54173/) 
