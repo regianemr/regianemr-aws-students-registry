@@ -1,106 +1,103 @@
-<div align="center">
-🎓✨ Cadastro de Alunos
-Projeto Full Stack com Flask + MySQL + AWS
+# 🎓 Cadastro de Alunos — Projeto Full Stack (Flask + MySQL + AWS)
 
-<img src="https://img.shields.io/badge/🚀_Projeto_Full_Stack-AWS-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/STATUS-Deploy_Desativado-darkred?style=for-the-badge"> <br>
+Este projeto implementa um sistema de cadastro e listagem de alunos, com backend em Flask, banco MySQL no RDS, frontend simples e um deploy estático no S3.
 
-Projeto desenvolvido para estudos durante a Santander Imersão Digital.
-OBS: Os serviços AWS foram desativados temporariamente.
+O objetivo foi reforçar conceitos de APIs REST, banco relacional, integração com cloud e deploy na AWS.
 
-</div>
-✨ Visão Geral
+## 📸 Demonstração
+🌟 Tela Inicial
 
-Este projeto implementa um sistema completo de cadastro e listagem de alunos, utilizando:
+<div  align="center">  <img  src="https://i.imgur.com/tDOOd54.png"  width="650">  </div>
 
-🐍 Backend em Flask
+📝 Cadastro em Ação
 
-🗄️ Banco MySQL no AWS RDS
-
-🎨 Frontend HTML/CSS/JS 
-
-☁️ Deploy estático no AWS S3
-
-O objetivo foi praticar conceitos de cloud, APIs REST, integração com banco relacional e deploy na AWS.
-
-🖼️ Demonstração
-🌟 Tela inicial
+<div  align="center">  <img  src="https://i.imgur.com/VlFBW5P.gif"  width="650">  </div>
 
 
-<img src="https://i.imgur.com/tDOOd54.png" width="600">
-🪄 Cadastro em ação
+## 🚀 Funcionalidades
+- 📌 API – Endpoints
 
-Fluxo completo de envio do formulário.
+- Método Rota Descrição
 
-<img src="https://i.imgur.com/VlFBW5P.gif" width="600">
-⚙️ Tecnologias Utilizadas
-☁️ Backend
+- POST /cadastro Insere um novo aluno no banco
 
-Flask
+- GET /alunos Lista todos os alunos cadastrados
 
-Flask-RESTful
+### 📌 Outras Funcionalidades
 
-Flask-CORS
+- Criação da tabela tb_alunos no MySQL RDS
 
-MySQL Connector
+- Integração entre Flask (EC2) e MySQL (RDS)
 
-AWS EC2 (API)
+- Frontend simples usando Fetch API
 
-AWS RDS (MySQL)
+- Deploy do frontend como site estático no S3
 
-✨ Frontend
 
-HTML5
+## 🛠️ Tecnologias utilizadas
 
-CSS3 
+### 🐍 Backend
 
-JavaScript (Fetch API)
+ 
+- Flask
 
-AWS S3 — hospedagem estática
+- Flask-RESTful
 
-🛠️ Ferramentas
+- Flask-CORS
 
-Git / GitHub
+- MySQL Connector
 
-MySQL Workbench
+- AWS EC2 (execução da API)
+  
+- AWS RDS (banco MySQL)
 
-AWS Console
+### 🎨 Frontend
 
-🛠️ Funcionalidades
+  
 
-Criação da tabela tb_alunos no MySQL RDS
+- HTML5
 
-API com rotas:
+- CSS3
 
-POST /cadastro → insere alunos
+- JavaScript (Fetch API)
 
-GET /alunos → retorna lista de alunos
+- AWS S3 (deploy estático)
 
-Integração entre EC2 (Flask) e RDS
+## 📦 Como rodar o projeto
 
-Frontend totalmente customizado
 
-Deploy do frontend como site estático no S3
+1️⃣ Backend (Flask)  
 
-🚀 Execução do Projeto
-1️⃣ Backend
+- Configure o app.py com suas credenciais do RDS e execute:
 
-Edite o app.py com suas credenciais do RDS e execute:
-
-python app.py
+- python app.py
 
 2️⃣ Frontend
 
-No arquivo script.js, atualize o IP da instância EC2.
+- No arquivo script.js, atualize o IP público da instância EC2:
 
-3️⃣ Deploy
+const API_URL = "http://SEU-IP-EC2:5000";
 
-Envie os arquivos do frontend ao bucket S3 configurado como Static Website Hosting.
+3️⃣ Deploy no AWS S3
+
+- Envie os arquivos HTML, CSS e JS para o bucket
+
+- Ative Static Website Hosting
+
+- Defina index.html como documento principal
 
 4️⃣ Acesso
 
-Abra a URL pública do S3 para usar o sistema.
 
-<div align="center">
----
-##  Autora
-Feito  por [Regiane](https://www.linkedin.com/in/regiane-melo-84ba54173/) 
+- Abra a URL pública do bucket para acessar o sistema.
+
+
+
+
+
+## 👩‍💻 Autora
+
+
+Feito por
+Regiane Melo
+
