@@ -31,7 +31,7 @@ O objetivo foi praticar conceitos de cloud, APIs REST, integração com banco re
 
 Fluxo completo de envio do formulário.
 
-<img src="https://i.imgur.com/VlFBW5P.mp3" width="600">
+<img src="https://i.imgur.com/VlFBW5P.gif" width="600">
 ⚙️ Tecnologias Utilizadas
 ☁️ Backend
 
