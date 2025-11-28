@@ -3,9 +3,9 @@
 }
 
 body {
-    background: linear-gradient(45deg, #15163f, #1f5b83);
+    background: linear-gradient(45deg, #15163f, rgb(53, 132, 184));
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans';
     margin: 0;
     padding: 0;
     display: flex;
@@ -18,19 +18,18 @@ body {
 }
 
 .container {
-    background: rgba(44, 22, 7, 0.9);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(58, 55, 212, 0.5);
     padding: 2rem;
     width: 100%;
     max-width: 500px;
-    backdrop-filter: blur(4px);
 }
 
 h1 {
     text-align: center;
     margin-bottom: 1.5rem;
-    color: #fffefa;
+    color: #fff;
     font-size: 1.8rem;
 }
 
@@ -56,7 +55,7 @@ input {
     width: 100%;
     padding: 0.6rem;
     border-radius: 8px;
-    background-color: rgba(255, 250, 240, 0.9);
+    background-color: #fff;
     font-family: 'Georgia', serif;
     transition: all 0.3s ease;
 }
@@ -79,14 +78,13 @@ input,
     border: none;
     border-radius: 8px;
     background: linear-gradient(45deg, #15163f, #1f5b83);
-    color: #f5deb3;
+    color: #ffffffff;
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: all 0.3s ease;
-    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
 }
 
 .submit-btn:hover {
